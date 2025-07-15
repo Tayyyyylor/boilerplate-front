@@ -1,7 +1,5 @@
-export default function Home() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  );
+import { redirect } from "@/i18n/navigation";
+
+export default function RootPage() {
+  return redirect({ href: "/", locale: "fr" });
 }
