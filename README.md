@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Boilerplate (App Router)
 
-## Getting Started
+A modern starter for building **Next.js App Router** applications with:
 
-First, run the development server:
+* 🌍 **i18n** (locale-based routing)
+* 🌓 **Dark mode** via \[`next-themes`]
+* ✨ **Prettier** (formatting) & **ESLint** (linting)
+* 🎨 **Sass/SCSS** (modular styles)
+
+## 🚀 Overview
+
+This boilerplate provides a clean structure, coding conventions, and ready-to-use tools so you can ship faster and cleaner.
+
+## 📦 Stack & Requirements
+
+* **Next.js** 14+ (App Router)
+* **React** 18+
+* **Node.js** ≥ 18
+* **Package manager**: npm, pnpm, or yarn
+
+## ⚙️ Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone
+git clone <your-repo-url> my-app && cd my-app
+
+# Install dependencies
+npm install   # or pnpm install / yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏁 Quick Start
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Dev
+npm dev       # http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Build & start
+npm build
+npm start
+```
 
-## Learn Mor
+## 🧭 Routing & i18n
 
-To learn more about Next.js, take a look at the following resources:
+* App Router with locale segments: `/(fr)`, `/(en)`, etc.
+* Locale detection/redirect via middleware.
+* Translation files per locale (e.g., `messages/fr.json`, `messages/en.json`).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌓 Theme (next-themes)
 
-## Deploy on Vercel
+* Light/dark toggle + system preference.
+* CSS class applied on `<html>` (e.g. `class="dark"`).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎨 Styles (Sass)
+
+* Global styles: `globals.scss`
+* SCSS modules: `Component.module.scss`
+
+## 🧹 Code Quality
+
+* **ESLint**: Next.js + React + import + TypeScript rules (if enabled).
+* **Prettier**: consistent formatting (integrate with pre-commit CI if needed).
+
+**Useful scripts**
+
+```bash
+npm lint       # Lint code
+npm prettier     # Run Prettier
+```
+
