@@ -18,6 +18,20 @@ This boilerplate provides a clean structure, coding conventions, and ready-to-us
 * **Node.js** ≥ 18
 * **Package manager**: npm, pnpm, or yarn
 
+
+## 🧰 Package Manager Notes
+
+This project is **npm-first** and ships with `package-lock.json`.
+
+Contributors can use **pnpm** or **yarn** instead:
+
+- Run `pnpm import` or `yarn import` to generate their own lockfile.  
+- Remove `package-lock.json` locally once the new lockfile is created.
+
+Scripts work the same:
+
+For **CI/CD**, stick to **one package manager consistently**.
+
 ## ⚙️ Installation
 
 ```bash
