@@ -1,5 +1,8 @@
 # Next.js Boilerplate (App Router)
 
+
+To start the project do : npx fast-boilerplate-next-app@latest
+
 A modern starter for building **Next.js App Router** applications with:
 
 * 🌍 **i18n** (locale-based routing)

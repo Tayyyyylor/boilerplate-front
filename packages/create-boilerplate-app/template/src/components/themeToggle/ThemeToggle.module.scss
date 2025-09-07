@@ -1,0 +1,28 @@
+.themeButton {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.375rem;
+    border: 1px solid grey;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.icon {
+    height: 1.2rem;
+    width: 1.2rem;
+    transition: all 0.2s ease;
+}
+
+.sunIcon {
+    color: $black;
+}
+
+.moonIcon {
+    position: absolute;
+    color: $white;
+}

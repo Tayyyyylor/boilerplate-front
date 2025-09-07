@@ -1,0 +1,31 @@
+{
+    "name": "fast-boilerplate-next-app",
+    "version": "1.0.1",
+    "description": "CLI to scaffold the Next.js boilerplate.",
+    "license": "MIT",
+    "type": "module",
+    "bin": {
+        "create-boilerplate-app": "bin/cli.js"
+    },
+    "files": [
+        "bin",
+        "template",
+        "README.md",
+        "LICENSE",
+        "scripts"
+    ],
+    "engines": {
+        "node": ">=18"
+    },
+    "scripts": {
+        "prepack": "node scripts/sync-template.mjs"
+    },
+    "keywords": [
+        "nextjs",
+        "boilerplate",
+        "app-router",
+        "i18n",
+        "cli",
+        "scaffold"
+    ]
+}

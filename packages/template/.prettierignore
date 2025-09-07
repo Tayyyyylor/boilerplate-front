@@ -1,0 +1,20 @@
+# Ignore artifacts:
+build
+coverage
+.prettierrc
+.prettierignore
+.json
+.gitignore
+
+# Next output folders
+.next
+out
+
+# Ignore all HTML files:
+*.html
+
+
+manifest.yml
+buildspec.yml
+Dockerfile
+docker-compose.yml
