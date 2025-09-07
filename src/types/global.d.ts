@@ -1,2 +1,2 @@
 // global types
-type Locale = "en" | "fr";
+type Locale = 'en' | 'fr'
