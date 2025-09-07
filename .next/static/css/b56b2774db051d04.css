@@ -1,0 +1,1 @@
+*{box-sizing:border-box;padding:0;margin:0}a{color:inherit;text-decoration:none}:root{--background:#f7f2ee;--foreground:#1a1a1a}.dark{--background:#1a1a1a;--foreground:#f7f2ee}body{background-color:var(--background);color:var(--foreground);transition:background-color .3s ease,color .3s ease;font-family:Helvetica Neue,Helvetica,Arial,sans-serif}
